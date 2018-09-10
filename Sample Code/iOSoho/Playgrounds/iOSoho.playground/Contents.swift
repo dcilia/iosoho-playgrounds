@@ -12,18 +12,11 @@ import UIKit
  visibility modifiers (public / private etc.)
  */
 
-
 import iOSohoKit
 
-
-let bundle = Bundle(for: ViewController.self)
-let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-let vc = storyboard.instantiateInitialViewController()!
+let circle = CircleView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
 
 
-let app = playgroundControllers(device: .phone3_5inch, orientation: Orientation.landscape, child: vc, additionalTraits: vc.traitCollection)
 
 
-import PlaygroundSupport
-PlaygroundPage.current.liveView = app.parent
 

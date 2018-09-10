@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double iOSohoKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSohoKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <iOSohoKit/PublicHeader.h>
-
+#import <iOSohoKit/CircleView.h>
 

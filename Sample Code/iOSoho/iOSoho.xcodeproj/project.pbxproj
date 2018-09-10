@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6607132C2146C553000951AA /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6607132A2146C553000951AA /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6607132D2146C553000951AA /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607132B2146C553000951AA /* CircleView.m */; };
 		6651BFFF21220A16005ED2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651BFFE21220A16005ED2D6 /* AppDelegate.swift */; };
 		6651C00421220A16005ED2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00221220A16005ED2D6 /* Main.storyboard */; };
 		6651C00621220A17005ED2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00521220A17005ED2D6 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6607132A2146C553000951AA /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		6607132B2146C553000951AA /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		6651BFFB21220A16005ED2D6 /* iOSoho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSoho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6651BFFE21220A16005ED2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6651C00321220A16005ED2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 			children = (
 				6651C01D21220ACA005ED2D6 /* iOSohoKit.h */,
 				6651C01E21220ACA005ED2D6 /* Info.plist */,
+				6607132A2146C553000951AA /* CircleView.h */,
+				6607132B2146C553000951AA /* CircleView.m */,
 			);
 			path = iOSohoKit;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6651C01F21220ACA005ED2D6 /* iOSohoKit.h in Headers */,
+				6607132C2146C553000951AA /* CircleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 					};
 					6651C01A21220ACA005ED2D6 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -253,6 +261,7 @@
 			files = (
 				6651C02821220ACE005ED2D6 /* ViewController.swift in Sources */,
 				6651C02D2122194E005ED2D6 /* playgroundcontroller.swift in Sources */,
+				6607132D2146C553000951AA /* CircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +450,7 @@
 		6651C02521220ACA005ED2D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -459,6 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.spotify.iOSohoKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -469,6 +480,7 @@
 		6651C02621220ACA005ED2D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
