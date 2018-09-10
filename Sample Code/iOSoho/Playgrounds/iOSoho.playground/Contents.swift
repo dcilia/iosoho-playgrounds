@@ -16,20 +16,14 @@ import UIKit
 import iOSohoKit
 
 
-
-//
-//
-//let vc = ViewController(nibName: nil, bundle: nil)
 let bundle = Bundle(for: ViewController.self)
 let storyboard = UIStoryboard(name: "Main", bundle: bundle)
 let vc = storyboard.instantiateInitialViewController()!
 
 
-let app = playgroundControllers(device: .phone3_5inch, orientation: Orientation.portrait, child: vc, additionalTraits: vc.traitCollection)
+let app = playgroundControllers(device: .phone3_5inch, orientation: Orientation.landscape, child: vc, additionalTraits: vc.traitCollection)
 
-//vc.changeBackgroundColor(to: UIColor.red)
 
 import PlaygroundSupport
-
 PlaygroundPage.current.liveView = app.parent
 
