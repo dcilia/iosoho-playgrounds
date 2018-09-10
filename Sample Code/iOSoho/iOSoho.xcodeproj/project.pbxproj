@@ -7,30 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6607132C2146C553000951AA /* CircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6607132A2146C553000951AA /* CircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6607132D2146C553000951AA /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6607132B2146C553000951AA /* CircleView.m */; };
 		6651BFFF21220A16005ED2D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651BFFE21220A16005ED2D6 /* AppDelegate.swift */; };
 		6651C00421220A16005ED2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00221220A16005ED2D6 /* Main.storyboard */; };
 		6651C00621220A17005ED2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00521220A17005ED2D6 /* Assets.xcassets */; };
 		6651C00921220A17005ED2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00721220A17005ED2D6 /* LaunchScreen.storyboard */; };
 		6651C01521220A9D005ED2D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651C01421220A9C005ED2D6 /* ViewController.swift */; };
-		6651C01F21220ACA005ED2D6 /* iOSohoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6651C01D21220ACA005ED2D6 /* iOSohoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6651C02221220ACA005ED2D6 /* iOSohoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6651C01B21220ACA005ED2D6 /* iOSohoKit.framework */; };
-		6651C02321220ACA005ED2D6 /* iOSohoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6651C01B21220ACA005ED2D6 /* iOSohoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6651C02821220ACE005ED2D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651C01421220A9C005ED2D6 /* ViewController.swift */; };
-		6651C02D2122194E005ED2D6 /* playgroundcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651C02C2122194E005ED2D6 /* playgroundcontroller.swift */; };
-		669A67D82122E94800A21024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6651C00221220A16005ED2D6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6651C02021220ACA005ED2D6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6651BFF321220A16005ED2D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6651C01A21220ACA005ED2D6;
-			remoteInfo = iOSohoKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6651C02721220ACA005ED2D6 /* Embed Frameworks */ = {
@@ -39,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6651C02321220ACA005ED2D6 /* iOSohoKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,32 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6607132A2146C553000951AA /* CircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
-		6607132B2146C553000951AA /* CircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		6651BFFB21220A16005ED2D6 /* iOSoho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSoho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6651BFFE21220A16005ED2D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6651C00321220A16005ED2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6651C00521220A17005ED2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6651C00821220A17005ED2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6651C00A21220A17005ED2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6651C01121220A58005ED2D6 /* iOSoho.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSoho.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6651C01421220A9C005ED2D6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6651C01B21220ACA005ED2D6 /* iOSohoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSohoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6651C01D21220ACA005ED2D6 /* iOSohoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSohoKit.h; sourceTree = "<group>"; };
-		6651C01E21220ACA005ED2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6651C02C2122194E005ED2D6 /* playgroundcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playgroundcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6651BFF821220A16005ED2D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6651C02221220ACA005ED2D6 /* iOSohoKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6651C01721220ACA005ED2D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,9 +52,7 @@
 		6651BFF221220A16005ED2D6 = {
 			isa = PBXGroup;
 			children = (
-				6651C01021220A22005ED2D6 /* Playgrounds */,
 				6651BFFD21220A16005ED2D6 /* iOSoho */,
-				6651C01C21220ACA005ED2D6 /* iOSohoKit */,
 				6651BFFC21220A16005ED2D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				6651BFFB21220A16005ED2D6 /* iOSoho.app */,
-				6651C01B21220ACA005ED2D6 /* iOSohoKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,38 +79,7 @@
 			path = iOSoho;
 			sourceTree = "<group>";
 		};
-		6651C01021220A22005ED2D6 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				6651C01121220A58005ED2D6 /* iOSoho.playground */,
-			);
-			path = Playgrounds;
-			sourceTree = "<group>";
-		};
-		6651C01C21220ACA005ED2D6 /* iOSohoKit */ = {
-			isa = PBXGroup;
-			children = (
-				6651C01D21220ACA005ED2D6 /* iOSohoKit.h */,
-				6651C01E21220ACA005ED2D6 /* Info.plist */,
-				6607132A2146C553000951AA /* CircleView.h */,
-				6607132B2146C553000951AA /* CircleView.m */,
-			);
-			path = iOSohoKit;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		6651C01821220ACA005ED2D6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6651C01F21220ACA005ED2D6 /* iOSohoKit.h in Headers */,
-				6607132C2146C553000951AA /* CircleView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6651BFFA21220A16005ED2D6 /* iOSoho */ = {
@@ -161,30 +94,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				6651C02121220ACA005ED2D6 /* PBXTargetDependency */,
 			);
 			name = iOSoho;
 			productName = iOSoho;
 			productReference = 6651BFFB21220A16005ED2D6 /* iOSoho.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6651C01A21220ACA005ED2D6 /* iOSohoKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6651C02421220ACA005ED2D6 /* Build configuration list for PBXNativeTarget "iOSohoKit" */;
-			buildPhases = (
-				6651C01621220ACA005ED2D6 /* Sources */,
-				6651C01721220ACA005ED2D6 /* Frameworks */,
-				6651C01821220ACA005ED2D6 /* Headers */,
-				6651C01921220ACA005ED2D6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iOSohoKit;
-			productName = iOSohoKit;
-			productReference = 6651C01B21220ACA005ED2D6 /* iOSohoKit.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -198,10 +112,6 @@
 				TargetAttributes = {
 					6651BFFA21220A16005ED2D6 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					6651C01A21220ACA005ED2D6 = {
-						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -219,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				6651BFFA21220A16005ED2D6 /* iOSoho */,
-				6651C01A21220ACA005ED2D6 /* iOSohoKit */,
 			);
 		};
 /* End PBXProject section */
@@ -235,14 +144,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6651C01921220ACA005ED2D6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				669A67D82122E94800A21024 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -255,25 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6651C01621220ACA005ED2D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6651C02821220ACE005ED2D6 /* ViewController.swift in Sources */,
-				6651C02D2122194E005ED2D6 /* playgroundcontroller.swift in Sources */,
-				6607132D2146C553000951AA /* CircleView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6651C02121220ACA005ED2D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6651C01A21220ACA005ED2D6 /* iOSohoKit */;
-			targetProxy = 6651C02021220ACA005ED2D6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6651C00221220A16005ED2D6 /* Main.storyboard */ = {
@@ -447,65 +330,6 @@
 			};
 			name = Release;
 		};
-		6651C02521220ACA005ED2D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2FNC3A47ZF;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = iOSohoKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.spotify.iOSohoKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6651C02621220ACA005ED2D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 2FNC3A47ZF;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = iOSohoKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.spotify.iOSohoKit;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,15 +347,6 @@
 			buildConfigurations = (
 				6651C00E21220A17005ED2D6 /* Debug */,
 				6651C00F21220A17005ED2D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6651C02421220ACA005ED2D6 /* Build configuration list for PBXNativeTarget "iOSohoKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6651C02521220ACA005ED2D6 /* Debug */,
-				6651C02621220ACA005ED2D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
